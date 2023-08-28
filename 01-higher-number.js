@@ -5,3 +5,11 @@ Exemplo: se a = 2 e b = 7, o algoritmo devolve 7.
 RESTRIÇÕES:
   * Não pode usar if's, estruturas de comparação, operador ternário, bibliotecas tipo Math, Colections ou semelhantes.
 */
+// Função que retorna o modulo de um numero
+function abs(a) {
+  if (a < 0) {
+    return -a
+  }
+
+  return a
+}
