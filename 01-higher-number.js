@@ -16,9 +16,9 @@ function higherNumber(a, b) {
 }
 
 // Função que retorna o modulo de um numero
-function abs(a) {
-  if (a < 0) {
-    return -a
+function abs(value) {
+  if (value < 0) {
+    return -value
   }
 
   return a
